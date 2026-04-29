@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navegacion{
+    width: 80%;
+    margin: 0 auto;   
+    background-color: lightgray;
+    padding: 0.3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.info_principal{
+    width: 80%;
+    min-height: 100vh; 
+    margin: 0 auto;    
+    margin-top: 6rem;  
+}
+
+
+.lista_recetas ul{
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.lista_recetas li{
+    margin-bottom: 1rem;
+}
+
+
+.receta{
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    background-color: rgb(220, 226, 231);
+    text-align: center;
+}
+
+a{
+    color: black;
+}

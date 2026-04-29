@@ -1,0 +1,38 @@
+.contenido_total{
+    width:80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(240, 229, 229);
+    border-left: 0.3rem solid black;
+    border-right: 0.3rem solid black;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.info{
+    display:flex;
+    
+    gap: 0.5rem;
+ }
+.foto_mia{
+    width: 10rem;
+    height: auto;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+}
+
+h1{
+    margin: 0;
+}
+
+li{
+    margin-bottom: 0.5rem;
+}
+

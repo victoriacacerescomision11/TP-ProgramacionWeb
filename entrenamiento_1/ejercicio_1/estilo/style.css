@@ -1,0 +1,30 @@
+
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.info_total{ 
+    width: 80%;
+    min-height: 100vh;
+    background-color: rgb(240, 229, 229);
+    padding: 2rem;
+    border-left: 0.3rem solid black;
+    border-right: 0.3rem solid black;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+
+a {
+    color: black;
+}

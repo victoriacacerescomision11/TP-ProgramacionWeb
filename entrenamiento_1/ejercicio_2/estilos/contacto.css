@@ -1,0 +1,49 @@
+.navegacion{
+    width: 100%;
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+.navegacion nav{
+    display: flex;
+    justify-content:center;
+    gap: 2rem;
+}
+
+.info_principal{
+    margin-top: 6rem;
+}
+.formulario{
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea{
+    padding: 0.5rem;
+    border: 0.1rem solid black;
+    border-radius: 0.3rem;
+}
+
+button{
+    padding: 0.5rem;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+}
+
+
+.pie_pagina{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+ } 
